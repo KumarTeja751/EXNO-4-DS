@@ -32,8 +32,7 @@ The feature selection techniques used are:
 NAME  : NARAMALA KUMARTEJA
 REG NO: 2122223230132
 ```
-
-```
+```p
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -45,6 +44,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 data=pd.read_csv("income(1) (1).csv",na_values=[ " ?"])
 data
 ```
+
 ![image](https://github.com/bharathganeshsivasankaran/EXNO-4-DS/assets/119478098/5f546fbc-aa3d-42f3-a343-b38cbc22d65f)
 ```
 data.isnull().sum()
